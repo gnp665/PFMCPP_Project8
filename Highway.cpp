@@ -2,6 +2,8 @@
 
 #include <cassert>
 
+
+
 void Highway::changeSpeed(int newSpeed)
 {
     speedLimit = newSpeed;

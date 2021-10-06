@@ -51,6 +51,8 @@ your task:
 #include <algorithm>
 #include <cassert>
 
+#include "Highway.h"
+
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
 
@@ -67,7 +69,12 @@ your task:
 
 int main()
 {
+
+
     Highway highway;
+
+    #if 0
+
     
     std::vector<Car> cars;
     std::vector<Motorcycle> motorcycles;
@@ -129,6 +136,8 @@ int main()
     
     HighwayPatrol cop;
     cop.scanHighway(&highway);
+
+    #endif
 
     std::cout << "done" << std::endl;
 
